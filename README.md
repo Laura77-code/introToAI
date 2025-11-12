@@ -16,3 +16,13 @@ This repository also contains the classification assignment `[AI-Assignment2] Cl
 ### Task Overview
 
 The assignment involves using the **chemical composition data of wine** to freely train your own **classification model** among several classifications to **identify the type of wine** and to **check the accuracy of the model**[cite: 3, 4]. The goal is to achieve an accuracy of **95% or higher** for a perfect score.
+
+---
+
+## Assignment 3 (Clustering) 🛍️
+
+This repository contains **[AI2025]_Clustering.ipynb**.
+
+### Task Overview
+Perform **customer segmentation** on *Mall_Customers.csv* using **K-Means** (features: *Annual Income (k$)*, *Spending Score (1–100)*).  
+Pipeline: quick EDA → **StandardScaler** → **Elbow** (k=1–10, choose **k=3**) → train & label → scatter with centroids → optional **hierarchical dendrogram** → report **silhouette ≈ 0.467**.
